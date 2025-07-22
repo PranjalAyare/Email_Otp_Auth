@@ -1,0 +1,28 @@
+# Python
+*.pyc
+__pycache__/
+
+# Django
+*.sqlite3
+*.log
+.env
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.db
+*.sock
+*.log
+*.tar
+docker-compose.override.yml
+
+# OS
+.DS_Store
+
+# Virtualenv
+email-auth-env/
+venv/
+.env/
